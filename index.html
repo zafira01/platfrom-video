@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZF.UNAFLIX</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<img src="zfuna.jpg">
+<span>ZF.UNAFLIX</span>
+</div>
+<input id="search" class="search" placeholder="Cari film...">
+</nav>
+
+<div class="player">
+<button id="backBtn" onclick="back()">⬅ Kembali</button>
+<iframe id="player"
+src="https://www.youtube.com/embed/TcMBFSGVi1c"
+allow="autoplay; encrypted-media"
+allowfullscreen></iframe>
+</div>
+
+<div id="filmContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
